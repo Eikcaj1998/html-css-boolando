@@ -44,7 +44,7 @@ header{
     text-align: center;
     margin-top: 35px;
 }
-user{
+.user{
     color: white;
 }
 .genre a{
@@ -53,13 +53,18 @@ user{
 .look {
     max-width: 1400px;
     display: flex;
-    margin:0 auto;
+    margin:0 auto ;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 .column{
     width: calc(100% / 3);
     position: relative;
-    margin: 0 10px;
+    padding-top: 20px;
+    
+
+
 }
 .flex{
     display: flex;
@@ -110,7 +115,6 @@ img{
     display: flex;
     position: absolute;
     height: 30px;
-    margin-right: 2px;
     width: 42px;
     justify-content: center;
     align-items: center;
@@ -128,13 +132,13 @@ img{
     left:46px;
     width: 120px;
 }
-
-.type {
-    font-size: 11px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 11px 0;
+.no-red{
+    background-color: #45835D;
+    bottom: 114px;
+    left:0px;
+    width: 120px;
 }
+
 
 .new {
     color: red;
